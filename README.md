@@ -32,3 +32,5 @@ This project implements a robust **Visual SLAM pipeline** capable of operating i
 - Visualization with Pangolin (3D map, trajectory, keypoints)
 
 ---
+## Presentation
+https://docs.google.com/presentation/d/1OyZ4Ogx_ZLECr_UY7OXu8BlClwnN3eTwHzgSxzgS4i4/edit?usp=drive_link
