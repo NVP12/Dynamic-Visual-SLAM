@@ -1,7 +1,7 @@
 # Dynamic Visual SLAM in Dynamic Environments
 
 <p align="center">
-    <img src="assets/Final_Static.mp4" alt="Project Demo" width="700"/>
+    <img src="assets/Static_Final.mp4" alt="Project Demo" width="700"/>
 </p>
 
 ![SLAM](https://img.shields.io/badge/SLAM-Dynamic%20Mapping-blue)
