@@ -1,5 +1,9 @@
 # Dynamic Visual SLAM in Dynamic Environments
 
+<p align="center">
+    <img src="assets/Final_Static.mp4" alt="Project Demo" width="700"/>
+</p>
+
 ![SLAM](https://img.shields.io/badge/SLAM-Dynamic%20Mapping-blue)
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Mask%20R--CNN%20%7C%20YOLO-red)
 ![Optimization](https://img.shields.io/badge/Optimization-Bundle%20Adjustment-green)
