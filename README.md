@@ -17,6 +17,8 @@ This project implements a robust **Visual SLAM pipeline** capable of operating i
 > 🧠 Built during my graduate coursework at the University of Minnesota (CSCI 5561 - Computer Vision).  
 > 🔍 Core modules include: ORB feature tracking, dynamic object detection using YOLO/Mask R-CNN, visual odometry, and bundle adjustment.
 
+For the owner: https://docs.google.com/document/d/1d98b0ul8DAbsA6pQdtcuoIs5RCLXsdhCS047mxy8j9w/edit?tab=t.0
+
 ---
 
 ## 🎯 Objectives
