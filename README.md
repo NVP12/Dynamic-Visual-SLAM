@@ -7,6 +7,7 @@
 ## 📌 Overview
 
 This project implements a robust **Visual SLAM pipeline** capable of operating in **dynamic environments**, where moving objects (e.g., people, vehicles) can interfere with traditional feature-based localization and mapping. By detecting and filtering dynamic objects, the system maintains accurate localization and map consistency.
+
 (*LOOK UP THE PRESENTATION LINK AT THE BOTTOM FOR A MORE INTUITIVE UNDERSTANDING*)
 
 > 🧠 Built during my graduate coursework at the University of Minnesota (CSCI 5561 - Computer Vision).  
