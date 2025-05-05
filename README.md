@@ -1,4 +1,4 @@
-# Dynamic Visual SLAM in Dynamic Environments
+# Visual SLAM in Dynamic Environments
 
 <p align="center">
     <img src="assets/Raphson_Static.png" alt="Project Demo" width="700"/>
