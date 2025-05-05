@@ -1,16 +1,12 @@
 # Dynamic Visual SLAM in Dynamic Environments
 
-<p align="center">
-    <img src="assets/Static_Final.mp4" alt="Project Demo" width="700"/>
-</p>
-
 ![SLAM](https://img.shields.io/badge/SLAM-Dynamic%20Mapping-blue)
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Mask%20R--CNN%20%7C%20YOLO-red)
 ![Optimization](https://img.shields.io/badge/Optimization-Bundle%20Adjustment-green)
 
 ## 📌 Overview
 
-This project implements a robust **Visual SLAM pipeline** capable of operating in **dynamic environments**, where moving objects (e.g., people, vehicles) can interfere with traditional feature-based localization and mapping. By detecting and filtering dynamic objects, the system maintains accurate localization and map consistency.
+This project implements a robust **Visual SLAM pipeline** capable of operating in **dynamic environments**, where moving objects (e.g., people, vehicles) can interfere with traditional feature-based localization and mapping. By detecting and filtering dynamic objects, the system maintains accurate localization and map consistency. (*LOOK UP THE PRESENTATION LINK BELOW FOR A MORE INTUITIVE UNDERSTANDING*
 
 > 🧠 Built during my graduate coursework at the University of Minnesota (CSCI 5561 - Computer Vision & CSCI 5551 - Robotics).  
 > 🔍 Core modules include: ORB feature tracking, dynamic object detection using YOLO/Mask R-CNN, visual odometry, and bundle adjustment.
