@@ -1,0 +1,1 @@
+/home/manas/ros2_test/src/ros2_orb_slam3/scripts/semantic_seg_node.py

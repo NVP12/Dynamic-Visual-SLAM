@@ -1,0 +1,4 @@
+[0.009s] Invoking command in '/home/manas/ros2_test/build/ros2_orb_slam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/manas/ros2_test/src/ros2_orb_slam3 -j2 -DCMAKE_INSTALL_PREFIX=/home/manas/ros2_test/install/ros2_orb_slam3
+[0.028s] [0mCMake Error: Unknown argument -j2[0m
+[0.028s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.031s] Invoked command in '/home/manas/ros2_test/build/ros2_orb_slam3' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/manas/ros2_test/src/ros2_orb_slam3 -j2 -DCMAKE_INSTALL_PREFIX=/home/manas/ros2_test/install/ros2_orb_slam3
