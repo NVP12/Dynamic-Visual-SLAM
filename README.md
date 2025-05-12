@@ -10,12 +10,14 @@
 
 ## 📌 Overview
 
-This project implements a robust **Visual SLAM pipeline** capable of operating in **dynamic environments**, where moving objects (e.g., people, vehicles) can interfere with traditional feature-based localization and mapping. By detecting and filtering dynamic objects, the system maintains accurate localization and map consistency. The given photo above is an architectural building in the University of Minnesota, where we performed our first milestone using the Visual SLAM algorithm where only static feautures were present. 
+SLAM (Simultaneous Localization and Mapping) allows robots to create 2D/3D maps of environments while determining their location within these maps. While traditional SLAM techniques assume a static environment, this project aims to overcome that limitation by implementing a dynamic SLAM pipeline capable of excluding dynamic objects (such as people) from the map using semantic segmentation.
+
+The base framework used in this project is ORB-SLAM3, which has been extended by integrating the SegFormer semantic segmentation model from Nvidia. The result is an enhanced Visual SLAM algorithm that can filter out dynamic objects, ensuring better localization and more accurate mapping in dynamic environments.
 
 (**LOOK UP THE PRESENTATION LINK AT THE BOTTOM FOR A MORE INTUITIVE UNDERSTANDING**)
 
 > 🧠 Built during my graduate coursework at the University of Minnesota (CSCI 5561 - Computer Vision).  
-> 🔍 Core modules include: ORB feature tracking, dynamic object detection using YOLO/Mask R-CNN, visual odometry, and bundle adjustment.
+> 🔍 Core modules include: ORB feature tracking, dynamic object detection using SegFormer, visual odometry, and bundle adjustment.
 
 For the owner: https://docs.google.com/document/d/1d98b0ul8DAbsA6pQdtcuoIs5RCLXsdhCS047mxy8j9w/edit?tab=t.0
 
@@ -33,11 +35,10 @@ For the owner: https://docs.google.com/document/d/1d98b0ul8DAbsA6pQdtcuoIs5RCLXs
 ## 🚀 Features
 
 - ORB-based keypoint extraction and matching
-- YOLOv5 / Mask R-CNN for dynamic object segmentation
-- Visual odometry with frame-to-frame pose estimation
-- Keyframe selection and graph-based optimization
-- Bundle adjustment for global consistency
-- Visualization with Pangolin (3D map, trajectory, keypoints)
+- Real-time dynamic SLAM
+- Integration with SegFormer for dynamic object detection
+- Improved accuracy in indoor environments
+- Evaluated using the TUM RGB-D dataset
 
 ---
 ## Presentation
